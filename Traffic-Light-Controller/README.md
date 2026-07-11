@@ -5,6 +5,14 @@ using a Moore Finite State Machine (FSM).
 
 ## State Diagram
 
+RED → GREEN → YELLOW → RED (repeats)
+
+| State | Duration | Next State |
+|-------|----------|------------|
+| RED | 6 clock cycles | GREEN |
+| GREEN | 6 clock cycles | YELLOW |
+| YELLOW | 2 clock cycles | RED |
+
 ## Module Details
 
 | Signal | Direction | Description          |
